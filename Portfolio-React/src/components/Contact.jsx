@@ -26,10 +26,10 @@ export default function Contact() {
             <a href="https://www.linkedin.com/in/abdullah-fawad-ba821b244/">
               <img src={linkedin} alt="linkedin" />
             </a>
-            <a href="https://www.linkedin.com/in/abdullah-fawad-ba821b244/">
+            <a href="https://www.instagram.com/abdullah__0_0_1/">
               <img src={instagram} alt="instagram" className="insta" />
             </a>
-            <a href="https://www.linkedin.com/in/abdullah-fawad-ba821b244/">
+            <a href="https://github.com/MZYXPLX/MZYXPLX">
               <img src={github} alt="github" className="git" />
             </a>
           </span>
