@@ -1,0 +1,98 @@
+/* src/components/jobListings/JobListings.css */
+.job-listings {
+  padding: 2rem 0rem;
+  gap: 5%;
+  background-color: rgba(255, 255, 255, 0.847);
+  min-height: 100vh;
+  width: 100%;
+  height: fit-content;
+}
+
+.job-listings ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  flex-wrap: wrap;
+  gap: 40px;
+  width: 100%;
+}
+
+.job-listings h1 {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+/* src/components/jobListings/JobListing.css */
+.job-listing {
+  background-color: white;
+  border: 2px solid black;
+  box-shadow: 4px 4px black;
+  border-radius: 5px;
+  line-height: 30px;
+  width: 14%;
+  padding: 30px;
+}
+
+.job-listing h3 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.job-listing p {
+  margin: 0;
+}
+
+.job-listing button {
+  margin-top: 10px;
+  font-size: 14px;
+  width: 100%;
+}
+
+.job-listings-page {
+  gap: 5%;
+  min-height: 100vh;
+  width: 100%;
+  height: fit-content;
+}
+
+.job-listings-page h1 {
+  width: 100%;
+  height: fit-content;
+}
+
+@media screen and (max-width: 780px) {
+  .job-listing {
+    background-color: white;
+    border: 2px solid black;
+    box-shadow: 4px 4px black;
+    border-radius: 5px;
+    line-height: 30px;
+    width: 28%;
+    padding: 2rem;
+  }
+
+  @media screen and (max-width: 480px) {
+    .job-listing {
+      line-height: 30px;
+      width: 60%;
+      padding: 2rem;
+    }
+
+    .job-listings {
+      padding: 0px;
+    }
+
+    .job-listing h3 {
+      font-size: 28px;
+    }
+
+    .job-listing p {
+      font-size: 20px;
+    }
+
+    .job-listing button {
+      font-size: 24px;
+    }
+  }
+}

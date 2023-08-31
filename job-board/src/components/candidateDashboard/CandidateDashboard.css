@@ -1,0 +1,138 @@
+/* src/components/candidateDashboard/candidateDashboard.css */
+.candidate-dashboard-page {
+  display: flex;
+  flex-direction: column;
+  padding: 3.5rem 0rem;
+  padding-bottom: 2rem;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.847);
+}
+
+.candidate-dashboard {
+  width: 90%;
+  height: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: 5%;
+}
+
+.candidate-dashboard h2 {
+  font-size: 24px;
+}
+
+.profile-form h3 {
+  font-size: 20px;
+  margin: 1rem 0rem;
+}
+
+/* src/components/candidateDashboard/JobPostingForm.css */
+.profile-form {
+  margin-top: 1.5rem;
+  background-color: white;
+  border: 2px solid black;
+  box-shadow: 4px 4px black;
+  border-radius: 15px;
+  padding: 2rem 4rem;
+  width: 40%;
+}
+
+.profile-form div {
+  display: flex;
+  flex-direction: row;
+}
+.profile-form div input {
+  justify-content: right;
+}
+
+.profile-form label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.profile-form input,
+.profile-form textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 2px solid black;
+  box-shadow: 4px 4px black;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+}
+
+.profile-form button {
+  font-size: 14px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.job-applications {
+  margin-top: 1.5rem;
+  background-color: white;
+  border: 2px solid black;
+  box-shadow: 4px 4px black;
+  border-radius: 15px;
+  padding: 2rem 4rem;
+  width: 20%;
+}
+
+.job-applications ul {
+  display: flex;
+  list-style: none;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.job-applications ul li {
+  border: 2px solid black;
+  padding: 0.5rem;
+  margin: 1rem;
+  width: 80%;
+  box-shadow: 4px 4px black;
+}
+
+.job-applications ul li bold {
+  font-weight: bolder;
+}
+
+.job-applications ul li p {
+  padding-bottom: 10px;
+  line-height: 20px;
+}
+
+@media screen and (max-width: 480px) {
+  .candidate-dashboard {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .profile-form {
+    margin-top: 1.5rem;
+    background-color: white;
+    border: 2px solid black;
+    box-shadow: 4px 4px black;
+    border-radius: 15px;
+    padding: 2rem 5%;
+    width: 80%;
+  }
+
+  .job-applications {
+    margin-top: 1.5rem;
+    padding: 2rem 5%;
+    width: 80%;
+    align-items: center;
+  }
+
+  .job-applications ul li {
+    border: 2px solid black;
+    padding: 0.5rem;
+    margin: 1rem;
+    width: 80%;
+    box-shadow: 4px 4px black;
+  }
+}

@@ -1,0 +1,115 @@
+.AuthPage {
+  position: fixed;
+  top: 0%; /* Adjust to position the card vertically */
+  left: 0%; /* Adjust to position the card horizontally */
+  z-index: 1000; /* Ensure the card is above other content */
+  background-color: rgba(5, 5, 5, 0.682);
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  justify-content: center;
+  padding-top: 5rem;
+}
+
+div {
+  margin: 0;
+  padding: 0%;
+}
+
+.AuthPage .AuthDiv {
+  border: 2px solid black;
+  box-shadow: 4px 4px black;
+  min-width: 40%;
+  height: fit-content;
+  background-color: white;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000; /* Ensure the card is above other content */
+  flex-direction: row;
+  padding: 5%;
+}
+
+.ButtonsDiv {
+  display: flex;
+  flex-direction: column;
+}
+
+.AuthPage .AuthDiv button {
+  width: 100%;
+  margin: 10px;
+}
+
+.AuthForms {
+  margin-left: 40px;
+  margin-right: 0px;
+  margin-top: 1.5rem;
+  background-color: white;
+  border: 2px solid black;
+  box-shadow: 4px 4px black;
+  border-radius: 15px;
+  padding: 2rem 4rem;
+  width: 40%;
+}
+
+@media screen and (max-width: 780px) {
+  .AuthPage .AuthDiv button {
+    width: 100%;
+    margin: 10px 0px;
+  }
+  .AuthPage .AuthDiv {
+    height: fit-content;
+    background-color: white;
+    margin: 5%;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    z-index: 1000; /* Ensure the card is above other content */
+    flex-direction: column;
+  }
+  .AuthForms {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 1.5rem;
+    width: 60%;
+  }
+  .AuthFormsDiv {
+    display: flex;
+    justify-content: center;
+  }
+
+  @media screen and (max-width: 480px) {
+    .AuthPage {
+      justify-content: center;
+    }
+    .AuthPage .AuthDiv {
+      height: 80%;
+      margin: 0%;
+      width: 90%;
+    }
+    .AuthFormsDiv {
+      height: 50%;
+    }
+    .AuthForms {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .AuthForms h2 {
+      font-size: 35px;
+    }
+
+    .AuthForms label {
+      font-size: 30px;
+    }
+
+    .AuthForms input {
+      font-size: 30px;
+      width: 100%;
+      border: 1px solid black;
+    }
+  }
+}

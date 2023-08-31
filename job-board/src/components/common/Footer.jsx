@@ -1,0 +1,1 @@
+// The footer section that appears on all pages.

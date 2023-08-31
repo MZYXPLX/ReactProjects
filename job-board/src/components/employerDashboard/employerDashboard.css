@@ -1,0 +1,88 @@
+/* src/components/employerDashboard/EmployerDashboard.css */
+.employer-dashboard-page {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 2rem;
+  width: 100%;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.847);
+}
+
+.employer-dashboard {
+  width: 40%;
+  background-color: white;
+  border: 2px solid black;
+  box-shadow: 4px 4px black;
+  border-radius: 15px;
+  height: 100%;
+  align-items: center;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.employer-dashboard-page h2 {
+  font-size: 24px;
+  width: 100%;
+}
+
+.employer-dashboard h3 {
+  font-size: 20px;
+  margin-top: 1rem;
+}
+
+/* src/components/employerDashboard/JobPostingForm.css */
+.job-posting-form {
+  margin-top: 1.5rem;
+}
+
+.job-posting-form div {
+  display: flex;
+  flex-direction: row;
+}
+/* .job-posting-form div input {
+  justify-content: right;
+} */
+
+.job-posting-form label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.job-posting-form input,
+.job-posting-form textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 2px solid black;
+  box-shadow: 4px 4px black;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+}
+
+.job-posting-form button {
+  font-size: 14px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 580px) {
+  .employer-dashboard {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    padding: 1rem;
+  }
+
+  .employer-dashboard h3 {
+    font-size: 30px;
+  }
+
+  .employer-dashboard-page {
+    width: 100vw;
+  }
+}
