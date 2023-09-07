@@ -1,0 +1,138 @@
+.glass {
+  /* From https://css.glass */
+  background: rgba(158, 158, 158, 0.209);
+  border-radius: 6px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(158, 158, 158, 0.3);
+}
+
+.AuthPage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+  color: white;
+}
+
+.AuthDiv {
+  margin: 50px 0px;
+  padding: 30px;
+  width: 300px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.AuthForms {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.AuthForms h2 {
+  font-size: 45px;
+  font-weight: 600;
+}
+
+.AuthForms input {
+  border-radius: 6px;
+  border: none;
+  padding: 15px 25px; 
+  background-color: rgba(0, 0, 0, 0.231);
+  font-weight: 600;
+  font-size: 16px;
+  outline: none;
+  color: #ffffff;
+}
+
+.AuthForms input::placeholder {
+  color: rgba(255, 255, 255, 0.514);
+  font-weight: 600;
+}
+
+/* .AuthForms button style  from uiverse url ="https://uiverse.io/kamehame-ha/kind-otter-31"*/
+
+.AuthForms button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 25px;
+  gap: 15px;
+  background-color: rgba(0, 0, 0, 0.231);
+  outline-offset: -3px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: 400ms;
+  font-size: 16px;
+  width: 100;
+}
+
+.AuthForms button .text {
+  color: white;
+  font-weight: 700;
+  font-size: 1em;
+  transition: 400ms;
+}
+
+.AuthForms button svg path {
+  transition: 400ms;
+}
+
+.AuthForms button:hover {
+  background: rgba(158, 158, 158, 0.209);
+  border-radius: 6px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.435);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(5px);
+  scale: 1.05;
+}
+
+.AuthForms button:hover .text {
+  color: white;
+}
+
+.userBtn {
+  background-color: transparent;
+  border-style: none;
+  color: white;
+  margin-top: 10px;
+}
+
+.userBtn b {
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+  .AuthDiv {
+    width: 70%;
+    margin: 0px;
+  }
+
+  .AuthForms h2 {
+    font-size: 65px;
+  }
+
+  .AuthForms input {
+    font-size: 1em;
+    width: 80%;
+  }
+
+  .AuthForms button {
+    font-size: 1.3em;
+    padding: 10px 50px;
+  }
+
+  .userBtn {
+    font-size: 1em;
+  }
+}
