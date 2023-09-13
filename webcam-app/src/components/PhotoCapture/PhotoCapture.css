@@ -1,0 +1,23 @@
+.ScreenShot {
+  display: flex;
+  flex-direction: column;
+  border: none;
+  border-radius: 30px;
+}
+
+.ScreenShot button {
+  background-color: transparent;
+  border: none;
+  color: inherit;
+}
+.ScreenShot button span {
+  font-size: 40px;
+  transition: 500ms;
+  padding: 6px;
+  border: 3px solid;
+  border-radius: 50%;
+}
+
+.ScreenShot button span:hover {
+  scale: 1.1;
+}
