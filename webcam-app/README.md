@@ -14,7 +14,7 @@ A simple React application for accessing the webcam, capturing photos, recording
 
 ## Demo
 
-Include a link to a live demo or screenshots of your application.
+(https://webcam-app-mzyxplx.netlify.app/)
 
 ## Features
 
