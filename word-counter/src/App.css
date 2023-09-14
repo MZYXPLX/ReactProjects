@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Work+Sans&family=Yatra+One&display=swap");
+body {
+  display: flex;
+  justify-content: center;
+  background-image: url("D:\Downloads\internee.pk\word-counter\src\assets\mel-poole-lBsvzgYnzPU-unsplash.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: "Yatra One", cursive;
+}
+
+.input {
+  /* From https://css.glass */
+  background: white;
+  border-radius: 6px;
+  box-shadow: 4px 4px black;
+  border: 2px solid rgb(0, 0, 0);
+  padding: 20px;
+  min-width: 700px;
+  outline: none;
+  font-family: "Work Sans", sans-serif;
+  font-size: 20px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 40px;
+}
+
+.result {
+  margin: 30px 0px;
+  padding: 10px 20px;
+  border: 2px solid black;
+  border-radius: 5px;
+  box-shadow: 4px 4px black;
+
+  width: fit-content;
+  background-color: rgb(255, 255, 255);
+}
