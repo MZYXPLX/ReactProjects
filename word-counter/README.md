@@ -1,30 +1,32 @@
-Certainly! Below is the content for your `README.md` file:
-
-```markdown
 # Word Counter App
 
-This is a simple word counter app designed to be used as a component in larger projects. It allows users to count the number of words entered in a text field in real-time.
+Simple word counter app to be used in larger projects. Counts words entered in a text field in real-time.
 
 ## Usage
 
-To use this Word Counter App, follow these steps:
-
-1. Initialize your project with `npm`:
+To run: 
 
 ```bash
 npm init
-```
-
-2. Run the app in development mode:
-
-```bash
 npm run dev
-```
-
-## How It Works
-
+How It Works
 The app is built using React, a popular JavaScript library for building user interfaces. It consists of two main components:
+```
+InputArea: This component handles the user input and updates the state in real-time as the user types or pastes text.
 
-1. **InputArea**: This component handles the user input and updates the state in real-time as the user types or pastes text.
+ResultDisplay: This component displays the word count based on the input provided in the InputArea.
 
-2. **ResultDisplay**: This component displays the word count based on the input provided in the `InputArea`.
+Contributing
+If you'd like to contribute to this project, please follow these steps:
+
+Fork the repository.
+Create a new branch for your feature: git checkout -b feature-name.
+Commit your changes: git commit -m 'Add some feature'.
+Push to the branch: git push origin feature-name.
+Submit a pull request.
+License
+This project is licensed under the MIT License.
+
+
+
+
